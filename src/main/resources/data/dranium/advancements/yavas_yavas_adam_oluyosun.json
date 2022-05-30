@@ -1,0 +1,36 @@
+{
+  "display": {
+    "background": "minecraft:textures/block/stone.png",
+    "icon": {
+      "item": "dranium:dranium_pickaxe"
+    },
+    "title": {
+      "translate": "advancements.yavas_yavas_adam_oluyosun.title"
+    },
+    "description": {
+      "translate": "advancements.yavas_yavas_adam_oluyosun.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "yavas_yavas_adam_oluyosun": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "dranium:dranium_pickaxe"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  }
+}

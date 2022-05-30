@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "dranium:dranium_block"
+    }
+  ],
+  "result": {
+    "item": "dranium:dranium",
+    "count": 9
+  }
+}

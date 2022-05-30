@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "dranium:end_breath_hoe"
+    },
+    "title": {
+      "translate": "advancements.richer_than_ever.title"
+    },
+    "description": {
+      "translate": "advancements.richer_than_ever.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "richer_than_ever": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "dranium:end_breath_hoe"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "dranium:al_iste_tum_adamligin_gitti"
+}

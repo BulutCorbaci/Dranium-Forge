@@ -1,0 +1,31 @@
+{
+  "_fv": 28,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "end_breath_axe",
+    "customModelName": "Normal",
+    "name": "End Breath Axe",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "TOOLS"
+    },
+    "toolType": "Axe",
+    "harvestLevel": 7,
+    "efficiency": 27.0,
+    "attackSpeed": 1.0,
+    "enchantability": 45,
+    "damageVsEntity": 30.0,
+    "usageCount": 6096,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:FrozenEndBreath"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

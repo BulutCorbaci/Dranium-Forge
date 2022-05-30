@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23",
+    "4 "
+  ],
+  "key": {
+    "0": {
+      "item": "dranium:frozen_end_breath"
+    },
+    "1": {
+      "item": "dranium:frozen_end_breath"
+    },
+    "2": {
+      "item": "minecraft:stick"
+    },
+    "3": {
+      "item": "dranium:frozen_end_breath"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "dranium:end_breath_axe",
+    "count": 1
+  }
+}

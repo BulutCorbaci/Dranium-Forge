@@ -1,0 +1,31 @@
+{
+  "_fv": 28,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "end_breath_shovel",
+    "customModelName": "Normal",
+    "name": "End Breath Shovel",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "TOOLS"
+    },
+    "toolType": "Spade",
+    "harvestLevel": 7,
+    "efficiency": 27.0,
+    "attackSpeed": 1.1,
+    "enchantability": 45,
+    "damageVsEntity": 9.75,
+    "usageCount": 6096,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:FrozenEndBreath"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "dranium:blocks/draniumore",
+    "up": "dranium:blocks/draniumore",
+    "north": "dranium:blocks/draniumore",
+    "east": "dranium:blocks/draniumore",
+    "south": "dranium:blocks/draniumore",
+    "west": "dranium:blocks/draniumore",
+    "particle": "dranium:blocks/draniumore"
+  }
+}

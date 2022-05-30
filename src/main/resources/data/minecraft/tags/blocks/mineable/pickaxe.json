@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "dranium:dranium_block",
+    "dranium:dranium_ore"
+  ]
+}

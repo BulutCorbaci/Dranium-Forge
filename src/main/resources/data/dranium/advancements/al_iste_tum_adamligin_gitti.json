@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "dranium:dranium_hoe"
+    },
+    "title": {
+      "translate": "advancements.al_iste_tum_adamligin_gitti.title"
+    },
+    "description": {
+      "translate": "advancements.al_iste_tum_adamligin_gitti.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "al_iste_tum_adamligin_gitti": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "dranium:dranium_hoe"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "dranium:yavas_yavas_adam_oluyosun"
+}

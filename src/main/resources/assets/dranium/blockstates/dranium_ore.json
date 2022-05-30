@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "dranium:block/dranium_ore"
+    }
+  }
+}

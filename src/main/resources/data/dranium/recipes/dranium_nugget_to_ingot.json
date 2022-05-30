@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "dranium:dranium_nugget"
+    },
+    "1": {
+      "item": "dranium:dranium_nugget"
+    },
+    "2": {
+      "item": "dranium:dranium_nugget"
+    },
+    "3": {
+      "item": "dranium:dranium_nugget"
+    },
+    "4": {
+      "item": "dranium:dranium_nugget"
+    },
+    "5": {
+      "item": "dranium:dranium_nugget"
+    },
+    "6": {
+      "item": "dranium:dranium_nugget"
+    },
+    "7": {
+      "item": "dranium:dranium_nugget"
+    },
+    "8": {
+      "item": "dranium:dranium_nugget"
+    }
+  },
+  "result": {
+    "item": "dranium:dranium",
+    "count": 1
+  }
+}
