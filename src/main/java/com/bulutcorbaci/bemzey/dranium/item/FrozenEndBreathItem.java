@@ -1,5 +1,5 @@
 
-package net.mcreator.cum.item;
+package com.bulutcorbaci.bemzey.dranium.item;
 
 import net.minecraft.world.item.UseAnim;
 import net.minecraft.world.item.Rarity;

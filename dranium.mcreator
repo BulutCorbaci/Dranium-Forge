@@ -479,10 +479,11 @@
   "workspaceSettings": {
     "modid": "dranium",
     "modName": "Dranium",
-    "version": "1.0.0",
-    "description": "New ore!",
-    "author": "Bemzey",
-    "license": "Academic Free License v3.0",
+    "version": "1.0.0-a02",
+    "description": "New ores and more stuff!",
+    "author": "Bemzey, BulutCorbaci",
+    "websiteURL": "https://github.com/BulutCorbaci/Dranium-Forge",
+    "license": "MIT License",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
     "requiredMods": [],
@@ -490,8 +491,8 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.18.2",
-    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
-    "modElementsPackage": "net.mcreator.cum",
+    "credits": "Sorry mark... I was bored.",
+    "modElementsPackage": "com.bulutcorbaci.bemzey.dranium",
     "lockBaseModFiles": false
   },
   "mcreatorVersion": 202200120510

@@ -1,5 +1,5 @@
 
-package net.mcreator.cum.item;
+package com.bulutcorbaci.bemzey.dranium.item;
 
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.Tier;
@@ -8,7 +8,7 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.HoeItem;
 import net.minecraft.world.item.CreativeModeTab;
 
-import net.mcreator.cum.init.DraniumModItems;
+import com.bulutcorbaci.bemzey.dranium.init.DraniumModItems;
 
 public class EndBreathHoeItem extends HoeItem {
 	public EndBreathHoeItem() {

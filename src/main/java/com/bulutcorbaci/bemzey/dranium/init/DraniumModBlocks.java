@@ -2,7 +2,7 @@
 /*
  *    MCreator note: This file will be REGENERATED on each build.
  */
-package net.mcreator.cum.init;
+package com.bulutcorbaci.bemzey.dranium.init;
 
 import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -10,9 +10,9 @@ import net.minecraftforge.registries.DeferredRegister;
 
 import net.minecraft.world.level.block.Block;
 
-import net.mcreator.cum.block.DraniumOreBlock;
-import net.mcreator.cum.block.DraniumBlcokBlock;
-import net.mcreator.cum.DraniumMod;
+import com.bulutcorbaci.bemzey.dranium.block.DraniumOreBlock;
+import com.bulutcorbaci.bemzey.dranium.block.DraniumBlcokBlock;
+import com.bulutcorbaci.bemzey.dranium.DraniumMod;
 
 public class DraniumModBlocks {
 	public static final DeferredRegister<Block> REGISTRY = DeferredRegister.create(ForgeRegistries.BLOCKS, DraniumMod.MODID);

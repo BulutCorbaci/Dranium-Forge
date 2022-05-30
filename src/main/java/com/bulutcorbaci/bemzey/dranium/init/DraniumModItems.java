@@ -2,7 +2,7 @@
 /*
  *    MCreator note: This file will be REGENERATED on each build.
  */
-package net.mcreator.cum.init;
+package com.bulutcorbaci.bemzey.dranium.init;
 
 import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -13,21 +13,21 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.BlockItem;
 
-import net.mcreator.cum.item.FrozenEndBreathItem;
-import net.mcreator.cum.item.FreezingIceItem;
-import net.mcreator.cum.item.EndBreathSwordItem;
-import net.mcreator.cum.item.EndBreathShovelItem;
-import net.mcreator.cum.item.EndBreathPickaxeItem;
-import net.mcreator.cum.item.EndBreathHoeItem;
-import net.mcreator.cum.item.EndBreathAxeItem;
-import net.mcreator.cum.item.DraniumSwordItem;
-import net.mcreator.cum.item.DraniumShovelItem;
-import net.mcreator.cum.item.DraniumPickaxeItem;
-import net.mcreator.cum.item.DraniumNuggetItem;
-import net.mcreator.cum.item.DraniumItem;
-import net.mcreator.cum.item.DraniumHoeItem;
-import net.mcreator.cum.item.DraniumAxeItem;
-import net.mcreator.cum.DraniumMod;
+import com.bulutcorbaci.bemzey.dranium.item.FrozenEndBreathItem;
+import com.bulutcorbaci.bemzey.dranium.item.FreezingIceItem;
+import com.bulutcorbaci.bemzey.dranium.item.EndBreathSwordItem;
+import com.bulutcorbaci.bemzey.dranium.item.EndBreathShovelItem;
+import com.bulutcorbaci.bemzey.dranium.item.EndBreathPickaxeItem;
+import com.bulutcorbaci.bemzey.dranium.item.EndBreathHoeItem;
+import com.bulutcorbaci.bemzey.dranium.item.EndBreathAxeItem;
+import com.bulutcorbaci.bemzey.dranium.item.DraniumSwordItem;
+import com.bulutcorbaci.bemzey.dranium.item.DraniumShovelItem;
+import com.bulutcorbaci.bemzey.dranium.item.DraniumPickaxeItem;
+import com.bulutcorbaci.bemzey.dranium.item.DraniumNuggetItem;
+import com.bulutcorbaci.bemzey.dranium.item.DraniumItem;
+import com.bulutcorbaci.bemzey.dranium.item.DraniumHoeItem;
+import com.bulutcorbaci.bemzey.dranium.item.DraniumAxeItem;
+import com.bulutcorbaci.bemzey.dranium.DraniumMod;
 
 public class DraniumModItems {
 	public static final DeferredRegister<Item> REGISTRY = DeferredRegister.create(ForgeRegistries.ITEMS, DraniumMod.MODID);

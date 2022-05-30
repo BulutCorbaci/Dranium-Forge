@@ -1,16 +1,16 @@
 modLoader="javafml"
 loaderVersion="[40,)"
-license="Academic Free License v3.0"
+license="MIT License"
 
 [[mods]]
 modId="dranium"
-version="1.0.0"
+version="1.0.002"
 displayName="Dranium"
-credits="Created using mod maker MCreator - https://mcreator.net/about"
-displayURL="https://mcreator.net"
-authors="Bemzey"
+credits="Sorry mark... I was bored."
+displayURL="https://github.com/BulutCorbaci/Dranium-Forge"
+authors="Bemzey, BulutCorbaci"
 description='''
-New ore!
+New ores and more stuff!
 '''
 
 [[dependencies.dranium]]

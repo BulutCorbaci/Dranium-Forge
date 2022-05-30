@@ -1,5 +1,5 @@
 
-package net.mcreator.cum.item;
+package com.bulutcorbaci.bemzey.dranium.item;
 
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.Tier;
@@ -8,21 +8,21 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.CreativeModeTab;
 
-import net.mcreator.cum.init.DraniumModItems;
+import com.bulutcorbaci.bemzey.dranium.init.DraniumModItems;
 
-public class EndBreathSwordItem extends SwordItem {
-	public EndBreathSwordItem() {
+public class DraniumSwordItem extends SwordItem {
+	public DraniumSwordItem() {
 		super(new Tier() {
 			public int getUses() {
-				return 6096;
+				return 980;
 			}
 
 			public float getSpeed() {
-				return 27f;
+				return 4f;
 			}
 
 			public float getAttackDamageBonus() {
-				return 22f;
+				return 4f;
 			}
 
 			public int getLevel() {
@@ -30,12 +30,12 @@ public class EndBreathSwordItem extends SwordItem {
 			}
 
 			public int getEnchantmentValue() {
-				return 45;
+				return 2;
 			}
 
 			public Ingredient getRepairIngredient() {
-				return Ingredient.of(new ItemStack(DraniumModItems.FROZEN_END_BREATH.get()));
+				return Ingredient.of(new ItemStack(DraniumModItems.DRANIUM.get()));
 			}
-		}, 3, -2.2f, new Item.Properties().tab(CreativeModeTab.TAB_TOOLS).fireResistant());
+		}, 3, -3f, new Item.Properties().tab(CreativeModeTab.TAB_TOOLS));
 	}
 }

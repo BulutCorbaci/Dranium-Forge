@@ -2,7 +2,7 @@
 /*
  *    MCreator note: This file will be REGENERATED on each build.
  */
-package net.mcreator.cum.init;
+package com.bulutcorbaci.bemzey.dranium.init;
 
 import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -17,13 +17,13 @@ import net.minecraft.world.level.levelgen.GenerationStep;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.core.Holder;
 
-import net.mcreator.cum.world.features.ores.DraniumOreFeature;
-import net.mcreator.cum.DraniumMod;
-
 import java.util.function.Supplier;
 import java.util.Set;
 import java.util.List;
 import java.util.ArrayList;
+
+import com.bulutcorbaci.bemzey.dranium.world.features.ores.DraniumOreFeature;
+import com.bulutcorbaci.bemzey.dranium.DraniumMod;
 
 @Mod.EventBusSubscriber
 public class DraniumModFeatures {

@@ -11,7 +11,7 @@
  *    will be REGENERATED on each build.
  *
  */
-package net.mcreator.cum;
+package com.bulutcorbaci.bemzey.dranium;
 
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
@@ -26,13 +26,13 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
-import net.mcreator.cum.init.DraniumModItems;
-import net.mcreator.cum.init.DraniumModFeatures;
-import net.mcreator.cum.init.DraniumModBlocks;
-
 import java.util.function.Supplier;
 import java.util.function.Function;
 import java.util.function.BiConsumer;
+
+import com.bulutcorbaci.bemzey.dranium.init.DraniumModItems;
+import com.bulutcorbaci.bemzey.dranium.init.DraniumModFeatures;
+import com.bulutcorbaci.bemzey.dranium.init.DraniumModBlocks;
 
 @Mod("dranium")
 public class DraniumMod {
